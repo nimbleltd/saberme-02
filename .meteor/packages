@@ -25,3 +25,4 @@ momentjs:moment
 accounts-ui
 raix:ui-dropped-event
 accounts-password
+iron:router
