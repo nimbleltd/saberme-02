@@ -26,3 +26,5 @@ accounts-ui
 raix:ui-dropped-event
 accounts-password
 iron:router
+useraccounts:core
+useraccounts:bootstrap
