@@ -13,21 +13,21 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <!-- <li class="active"><a href="#">Home</a></li> -->
-            <li><a href="#about">About</a></li>
-        <li class="dropdown">
-          <a href="/login" class="button" aria-expanded="false">Sign In</a>
-<!--           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul> -->
-
-        </li>
-       </ul>
-        
-        </div><!--/.nav-collapse -->
+            <li><a href={{pathFor 'notifications'}}>Notifications</a></li>
+            <li><a href={{pathFor 'profile'}}>Profile</a></li>
+            <li><a href={{pathFor 'about'}}>About</a></li>
+            <li>{{> atNavButton}}</li>
+            
+<!--             {{#if currentUser}}
+              <li><a href="/login" class="button" aria-expanded="false">Sign Out</a></li>
+            {{else}}
+              <li><a href="/login" class="button" aria-expanded="false">Sign In</a></li>
+             {{/if}} -->
+    
+<!--         {{> register}}
+        {{> login}} -->
+         </ul>
+        </div>
       </div>
     </nav>
   </template>
