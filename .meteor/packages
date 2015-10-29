@@ -28,3 +28,4 @@ accounts-password
 iron:router
 useraccounts:core
 useraccounts:bootstrap
+useraccounts:iron-routing
