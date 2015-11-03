@@ -30,3 +30,4 @@ useraccounts:core
 useraccounts:bootstrap
 useraccounts:iron-routing
 stylus
+pcel:loading
