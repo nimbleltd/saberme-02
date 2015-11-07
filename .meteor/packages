@@ -31,3 +31,4 @@ useraccounts:bootstrap
 useraccounts:iron-routing
 stylus
 pcel:loading
+markdown

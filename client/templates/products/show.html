@@ -1,16 +1,16 @@
 <template name="productsShow">
   <div class="container" style="padding-top: 60px">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12">
         <img src="/images/products/{{image}}" alt=""/>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-12">
         <h1>{{name}}</h1>
         {{#with vendor}}
-        <p><a href="{{pathFor 'vendorsShow'}}">{{name}}</a></p>
+        <p><a href=#>{{name}}</a></p>
         {{/with}}
         <p class="lead"><i>{{summary}}</i></p>
-        <p class="lead">{{{markdown description}}}</p>
+        <!-- <p class="lead">{{{markdown description}}}</p> -->
 
         <div class="row">
           <div class="col-md-12">
