@@ -10,7 +10,7 @@
         <p><a href=#>{{name}}</a></p>
         {{/with}}
         <p class="lead"><i>{{summary}}</i></p>
-        <!-- <p class="lead">{{{markdown description}}}</p> -->
+        <p class="lead">{{#markdown}}{{description}}{{/markdown}}</p>
 
         <div class="row">
           <div class="col-md-12">
