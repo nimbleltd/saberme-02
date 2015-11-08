@@ -14,8 +14,8 @@
           <ul class="nav navbar-nav navbar-right">
             <!-- <li class="active"><a href="#">Home</a></li> -->
             <li><a href={{pathFor 'contact'}}>Contact</a></li>
-            <li><a href={{pathFor 'profile'}}>Profile</a></li>
             <li><a href={{pathFor 'about'}}>About</a></li>
+            <li><a href={{pathFor 'profile'}}>{{#if currentUser}}{{whatsMyUsername}}<span class="glyphicon glyphicon-cog navbar-glyphspace" aria-hidden="false"></span>{{/if}}</a></li>
             <li>{{> atNavButton}}</li>
             
 <!--             {{#if currentUser}}
