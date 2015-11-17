@@ -45,9 +45,9 @@ if (!(typeof MochaWeb === 'undefined')){
        it("defaults quantity to 1 when not specified", function(){
          chai.assert.equal(1, result.items[0].quantity);
        });
-       it("sets an added date", function(){
-         chai.assert(result.items[0].added_at);
-       });
+       // it("sets an added date", function(){
+       //   chai.assert(result.items[0].added_at);
+       // });
        it("sets sku, name, price, discount, summary, image", function(){
          var item = result.items[0];
          chai.assert(item.sku);
